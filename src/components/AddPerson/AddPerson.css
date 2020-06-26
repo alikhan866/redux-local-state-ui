@@ -1,0 +1,38 @@
+.AddPerson {
+    text-align: center;
+    margin-top: 30px;
+}
+.Button {
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background:rgb(18, 141, 13);
+    width: 165px;
+    height: 40px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.555);
+    border-radius: 8px;
+}
+
+.Button:hover {
+    color: white;
+    background-color:rgb(42, 216, 36);
+    cursor: pointer;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.Button:focus{
+    outline: -webkit-focus-ring-color none;
+}
+
+.Input {
+    display: block;
+    margin: 10px;
+    padding: 3px;
+}
+
+
+.Label {
+    display: inline-block;
+}
